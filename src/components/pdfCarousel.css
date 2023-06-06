@@ -1,0 +1,36 @@
+.carousel-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.carousel .slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.arrow-button {
+  background-color: transparent;
+  border: none;
+  color: #fff;
+  font-size: 18px;
+  padding: 10px;
+  cursor: pointer;
+  transition: opacity 0.3s;
+}
+
+.arrow-button:hover {
+  opacity: 0.7;
+}
+
+.prev {
+  position: absolute;
+  left: 20px;
+}
+
+.next {
+  position: absolute;
+  right: 20px;
+}
