@@ -1,0 +1,16 @@
+body {
+	background-color: rgb(88, 88, 88);
+}
+
+.tag {
+	text-align: center;
+}
+
+.imgslider{
+	margin: auto;
+	width: 80%;
+	height: 50%;
+}
+.pdfSlider{
+    justify-content: space-between;
+}
