@@ -1,4 +1,5 @@
 import React from 'react';
+import ReactViewer from './components/reactPdfViewer/reactViewer';
 import ReactSlider from './components/reactSlick/slider';
 
 const App = () => {
@@ -6,6 +7,7 @@ const App = () => {
 
   return (
     <div className="app">
+      {/* <ReactViewer/> */}
       <ReactSlider/>
     </div>
   );
