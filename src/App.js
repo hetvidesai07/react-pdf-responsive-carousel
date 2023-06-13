@@ -1,14 +1,11 @@
-import React from 'react';
-import ReactSlider from './components/reactSlick/slider';
-import ReactPdfZoom from './components/reactZoomPdf/reactPdf';
+import React from "react";
+import ReactSlider from "./components/reactSlick/slider";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 const App = () => {
-  // const pdf= 'https://leverageedu.com/blog/wp-content/uploads/2021/03/Modern-Education.pdf';
-
   return (
     <div className="app">
-      {/* <ReactSlider/> */}
-      <ReactPdfZoom/>
+      <ReactSlider />
     </div>
   );
 };
