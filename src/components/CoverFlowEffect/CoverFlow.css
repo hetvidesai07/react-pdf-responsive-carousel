@@ -1,0 +1,47 @@
+.carousel {
+    position: relative;
+    width: 100%;
+    height: 400px; /* Adjust the height as needed */
+    perspective: 1000px;
+  }
+  
+  .carousel li {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    backface-visibility: hidden;
+    transition: transform 0.5s;
+  }
+  
+  .carousel li.main-pos {
+    display: block;
+    transform: translateX(0) rotateY(0);
+    z-index: 2;
+  }
+  
+  .carousel li.left-pos {
+    transform: translateX(-100%) rotateY(-45deg);
+    z-index: 1;
+  }
+  
+  .carousel li.right-pos {
+    transform: translateX(100%) rotateY(45deg);
+    z-index: 1;
+  }
+  
+  .carousel li.back-pos {
+    transform: translateX(0) rotateY(90deg);
+    z-index: 0;
+  }
+  
+  .carousel li.items img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
